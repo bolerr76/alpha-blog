@@ -29,7 +29,7 @@ body{
   }
 
   header{
-    background: #1c466c;
+    background: #660000;
     color:#ffffff;
     padding-top: 30px;
     min-height: 70px; /*ovo je veoma bitno kada se radi scale stranice da ispadne kako treba*/
@@ -74,13 +74,13 @@ header a{
     min-height: 400px; /*stavio sam 400px min zato da strnanica bude (responsiv) prilikom otvaranja na mobitelu,tabu...*/
     background: url('10.png') no-repeat 0 -200px; /*0 je horizonta, -400px je verical (prema gore podizanje slike)*/
     text-align: center;
-    color:#1c466c;
+    color:#656565;
   }
 
   #newsletter{
     padding: 15px;
     color:#ffffff;
-    background:#1c466c/*ovde sam postavio podlogu za newsletter u plavu/sivu*/
+    background:#660000/*ovde sam postavio podlogu za newsletter u plavu/sivu*/
   }
 
   #newsletter h1{
@@ -104,6 +104,7 @@ header a{
       padding:20px;
       margin-top: 30px;
       color: #ffffff;
+      background-color: #660000;
 
       text-align: center;
     }
